@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from "react";
 
 //const apiKey = import.meta.env.VITE_SOME_KEY;
-const api = "http://jason37.pythonanywhere.com/frameapp/";
+const api = "https://jason37.pythonanywhere.com/frameapp/";
 const headers = {
   Authorization: `Bearer ${import.meta.env.VITE_SOME_KEY}`,
 };
